@@ -1,7 +1,7 @@
 import { createServer, request } from 'http';
 
 const server = createServer((request, response) => {
-    response.end("Hello world\n");
+    response.end("Hello from another world\n");
 })
 
 //trebuie sa ii alocam un port
